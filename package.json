@@ -13,7 +13,10 @@
 <<<<<<< HEAD
 =======
     "react-router": "^4.0.0",
+<<<<<<< HEAD
 >>>>>>> OEUI-29: Initial project setup
+=======
+>>>>>>> 0d3520b68d5d017bc6e9f25c061428d429655f98
     "react-router-dom": "^4.2.2",
     "redux": "^3.6.0",
     "redux-promise-middleware": "^4.2.0",
