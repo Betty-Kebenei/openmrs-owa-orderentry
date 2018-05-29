@@ -247,7 +247,7 @@ describe('handleSubmitDrugForm() method', () => {
     expect(getComponent().state('draftOrder')).toEqual({
       action: "NEW",
       careSetting: undefined,
-      dosingType: "org.openmrs.FreeTextDosingInstructions",
+      dosingType: "org.openmrs.SimpleDosingInstructions",
       drug: "AJJJKW7378JHJ",
       drugName: "Paracentamol",
       orderNumber: 1,

@@ -211,6 +211,7 @@ export class AddForm extends React.Component {
 
   clearDrugForms = () => {
     this.setState({
+      action: 'NEW',
       fields: {
         dose: '',
         dosingUnit: '',
@@ -218,13 +219,23 @@ export class AddForm extends React.Component {
         route: '',
         duration: '',
         durationUnit: '',
-        dispensingUnit: '',
         dispensingQuantity: '',
+        dispensingUnit: '',
         reason: '',
         drugInstructions: '',
       },
-      action: 'NEW',
       previousOrder: null,
+      fieldErrors: {},
+      formType: 'Standard Dosage',
+      dosingType: '',
+      activeTabIndex: 0,
+      options: {
+        dosingUnit: [],
+        frequency: [],
+        route: [],
+        durationUnit: [],
+        dispensingUnit: [],
+      },
     });
   }
 
